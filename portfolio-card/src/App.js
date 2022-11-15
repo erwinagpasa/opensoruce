@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -9,25 +9,25 @@ function App() {
 
 
 <div className="container-fluid col-md-9 py-5">
-        <div className="container pt-5">
+        <div className="container">
             <div className="row">
-                <div className="col-lg-7 g-0 bg-white imahe">
-                    <div className="xposition-relative">
-                        <img className="w-100 card-img" alt="" src="img/halcyon.png" />
-                    </div>
+                <div className="col-lg-7 portfolio-img">
+                <Link to="/"> 
+                <img className="w-100" alt="" src="img/ccs.jpeg" />
+                </Link>
                 </div>
                 
-                <div className="col-lg-5 text-card">
-                  <small className="text-white d-block text-end">Featured Project</small> 
+                <div className="col-lg-5 portfolio-wrapper">
+                  <small className="d-block text-white text-end">Featured Project</small> 
                   <h4 className="text-white text-end">Halcyon Theme</h4>
-                    <div className="about-text my-lg-2">
-                        <div className="p-4 p-lg-4 bg-white">
+                    <div className="text-wrapper">
+                        <div className="text-inner">
                         <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, 
                           and more. Available on Visual Studio Marketplace, Package Control, 
                           Atom Package Manager, and npm.
                         </p>
                         </div>
-                        <p className="text-white text-end">VS Code, Sublime Text, Atom, iTerm2, Hyper</p>
+                        <p className="text-end">VS Code, Sublime Text, Atom, iTerm2, Hyper</p>
                     </div>
 
                    

@@ -1,23 +1,41 @@
+body{
+  color: #a8b2d1;
+}
+
+.portfolio-img{
+  opacity: 0.3;
+  }
+
+.portfolio-img:hover{
+  opacity: 0.6;
+  }
+
+.portfolio-img img{
+  border-radius: 4px;
+  }
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 
-  .text-card{
+  .portfolio-wrapper{
     flex: 0 0 40%;
     }
 
-    .imahe{
-      flex: 0 0 60%;
+  .portfolio-img{
+    flex: 0 0 60%;
     }
   
-    .about-text {
-      margin-left: -200px;
-      position: relative;
-      }
+  .portfolio-wrapper .text-wrapper {
+    margin-left: -200px;
+    position: relative;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .about-text {
+  .portfolio-wrapper .text-wrapper {
     margin-left: -200px;
     position: relative;
     }
@@ -26,17 +44,16 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-
-  .about-text {
+  .portfolio-wrapper .text-wrapper {
     margin-left: -120px;
-    /* z-index: 9999; */
     position: relative;
     }
-  /* .col-lg-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    } */
 
+  .portfolio-wrapper .text-wrapper .text-inner{
+    background-color: #102340;
+    padding: 15px;
+    border-radius: 4px;
+    }
 }
 
 
