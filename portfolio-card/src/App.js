@@ -22,7 +22,7 @@ function App() {
                 
               <div className="col-lg-5 portfolio-wrapper">
                 <small className="d-block text-white text-end">Featured Project</small> 
-                  <h4 className="text-white text-end">Halcyon Theme</h4>
+                  <h4 className="text-white text-end">Devph.io</h4>
                     <div className="description">
                       <div className="text-inner">
                         <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, 
@@ -46,7 +46,7 @@ function App() {
             <div className="row">
                 <div className="col-lg-5 portfolio-wrapper">
                 <small className="d-block text-white">Featured Project</small> 
-                  <h4 className="text-white">Halcyon Theme</h4>
+                  <h4 className="text-white">Mobile Shopping Cart</h4>
                     <div className="description-left">
                       <div className="text-inner">
                         <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, 
