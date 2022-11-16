@@ -25,9 +25,8 @@ function App() {
                   <h4 className="text-white text-end">Devph.io</h4>
                     <div className="description">
                       <div className="text-inner">
-                        <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, 
-                          and more. Available on Visual Studio Marketplace, Package Control, 
-                          Atom Package Manager, and npm.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
                       </div>
                         <ul className="list-group list-group-horizontal list-group-flush justify-content-end right-list">
                           <li className="list-group-item bg-transparent">ReactJS</li>
@@ -49,9 +48,9 @@ function App() {
                   <h4 className="text-white">Mobile Shopping Cart</h4>
                     <div className="description-left">
                       <div className="text-inner">
-                        <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, 
-                          and more. Available on Visual Studio Marketplace, Package Control, 
-                          Atom Package Manager, and npm.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a 
+                          piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
                       </div>
                         <ul className="list-group list-group-horizontal list-group-flush justify-content-start left-list">
                           <li className="list-group-item bg-transparent">ReactJS</li>
